@@ -1,0 +1,21 @@
+{
+  "name": "notification",
+  "version": "1.0.0",
+  "description": "notification service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodeMailer"
+  ],
+  "author": "sakib",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.8.0"
+  }
+}
